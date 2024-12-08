@@ -1,0 +1,5 @@
+*.zip
+~*
+fp-info-cache
+3d/
+_autosave-*
