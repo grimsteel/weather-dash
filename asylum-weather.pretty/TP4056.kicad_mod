@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d644bd7b-4969-4e3c-a420-7834d10297b9")
+		(uuid "8cc6ac53-ffe5-40f0-81eb-94af0985370f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -220,4 +220,15 @@
 		(uuid "93cb5d99-eb48-4225-8461-326752f8e4d5")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/TP4056.step"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 0.95 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
