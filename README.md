@@ -35,11 +35,19 @@
   https://www.aliexpress.us/item/3256807931985778.html ($0.99 welcome / $1.08)
   https://www.aliexpress.us/item/3256807944765163.html ($1.45 5 pcs)
   https://www.aliexpress.us/item/3256808009574936.html ($0.99 welcome 5 pcs / $3.77 5 pcs)
+- 2x Tactile button cap - gray
+  https://www.aliexpress.us/item/2251832842559353.html ($0.99 gift / $2.93 20pcs)
+  https://www.aliexpress.us/item/2251832629712765.html ($0.99 gift / $1.53 100pcs)
+  https://www.aliexpress.us/item/2251832660080884.html ($0.99 gift / $2.50 100pcs)
+- 3x M3 Heatset Inserts 
+  https://www.aliexpress.us/item/3256803396040989.html ($0.99 gift / $1.84) M3(OD4.5mm) 3.5mm 50pcs
+- M3 heatset insert soldering iron tip
+  https://www.aliexpress.us/item/3256806515637370.html ($0.99 gift / $2.37)
   
 - 1x DHT11 board
-- 1x basic push button
+- 2x basic push button
 - 1x 10 ohm resistor THT
-- 1x 10K resistor THT
+- 2x 10K resistor THT
 - 1x 1x3 female header
 - 3x 1x8 male header
 - 1x 1x4 male header
@@ -48,6 +56,6 @@ Voltage Calculations:
 
 1. ESP32-C3 requires 3.0-3.6V input voltage
 2. The LDO technically requires 4.3V for a stable 3.3V, _but_ starts providing 3.0V at an input of ~3.1V
-3. The Li-Pos are 3.7V
+3. The battery is 3.8V
 4. The 1N5817 Schottky has a voltage drop of 0.25V at 200 mA
 5. Therefore, the LDO will be provided with 3.45V and will output 3.2-3.3V

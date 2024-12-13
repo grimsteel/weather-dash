@@ -824,7 +824,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -833,15 +833,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 5.08 0)
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -858,15 +858,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -875,7 +866,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "Description" "Single Pole Single Throw (SPST) switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -884,10 +875,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
 				(circle
 					(center -2.032 0)
-					(radius 0.4572)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -898,7 +898,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
+						(xy -1.524 0.254) (xy 1.524 1.778)
 					)
 					(stroke
 						(width 0)
@@ -909,19 +909,8 @@
 					)
 				)
 				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -931,38 +920,9 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "SW_SPST_1_1"
 				(pin passive line
 					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -980,16 +940,16 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "C"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2365,10 +2325,6 @@
 		(uuid "8c8b4cb3-2bd2-4f13-ba55-5dc737e71f37")
 	)
 	(no_connect
-		(at 91.44 74.93)
-		(uuid "a5b1828f-0cfb-4698-b794-2c2465f4a5f8")
-	)
-	(no_connect
 		(at 25.4 40.64)
 		(uuid "a996e595-2fe8-437c-88e1-1933678f25ca")
 	)
@@ -3012,7 +2968,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02c183af-82c0-4b73-9c0d-17f391c2127c")
 		(property "Reference" "J1"
 			(at 69.215 64.77 0)
@@ -3023,7 +2978,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 69.215 67.31 0)
+			(at 68.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +3273,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 91.44 69.85 90)
+		(at 91.44 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3326,7 +3281,7 @@
 		(dnp no)
 		(uuid "269f8113-eba4-405e-9de1-02d33cb19c4a")
 		(property "Reference" "#PWR012"
-			(at 95.25 69.85 0)
+			(at 95.25 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3290,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 91.186 67.818 90)
+			(at 91.186 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 69.85 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 69.85 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 91.44 69.85 0)
+			(at 91.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3345,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c0db776-e1aa-4bbc-978f-092deeb36e0a")
 		(property "Reference" "D1"
 			(at 107.95 66.04 0)
@@ -3401,7 +3355,7 @@
 			)
 		)
 		(property "Value" "1N5817"
-			(at 107.95 68.58 0)
+			(at 108.204 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,9 +3423,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
+		(lib_id "Switch:SW_SPST")
 		(at 96.52 72.39 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3504,7 +3457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 80.01 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 96.52 72.39 0)
 			(effects
 				(font
@@ -3523,9 +3476,6 @@
 		)
 		(pin "1"
 			(uuid "a054d673-61c1-47f1-9275-28cef8ba635e")
-		)
-		(pin "3"
-			(uuid "cd7951c3-c9b9-4cb2-bc7f-2a65d5656481")
 		)
 		(pin "2"
 			(uuid "e5fef45b-cad3-48e9-b11d-ce93393e2cd6")
