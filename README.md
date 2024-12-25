@@ -8,14 +8,6 @@
   LDO Datasheet: https://stm32-base.org/assets/pdf/regulators/ME6211.pdf
   Schematic: https://www.wemos.cc/en/latest/_static/files/sch_c3_mini_v2.1.0.pdf
 - 1x 1.8" ST7355 TFT
-- 1x 300-800 mAh Li-Po battery with BMS - probably not the best idea to get from Aliexpress
-  https://www.aliexpress.us/item/3256806874686429.html ($2.96 gift / $3.79) 850 mAh "2pin 2.0mm"
-  https://www.aliexpress.us/item/3256807284093967.html ($4.26 / $9.26) 800 mAh
-  https://www.aliexpress.us/item/3256807984479268.html ($5.13 gift / $10.90) 1000 mAh
-  https://www.aliexpress.us/item/3256802542021832.html ($3.55 welcome / $9.55) 1000 mAh
-  https://www.aliexpress.us/item/3256806084256547.html ($6.11 / $10.54) 1000 mAh
-  https://www.aliexpress.us/item/3256806667777057.html ($4.33 / $8.50) 500 mAh
-  https://www.aliexpress.us/item/3256806281367340.html ($5.45 / $9.40) 600 mAh
 - 2x JST PH-2.0 connector + wires/plug
   https://www.aliexpress.us/item/3256806041370367.html ($0.99 welcome / $1.08) 5 sets 2P
 - 1x 3 pin SPDT switch - 0.5A
@@ -43,6 +35,8 @@
   https://www.aliexpress.us/item/3256803396040989.html ($0.99 gift / $1.84) M3(OD4.5mm) 3.5mm 50pcs
 - M3 heatset insert soldering iron tip
   https://www.aliexpress.us/item/3256806515637370.html ($0.99 gift / $2.37)
+- 1x 3pin Battery Spring compression contact (BC-35-3P)
+  https://www.aliexpress.us/item/2255800016944760.html (0.99 gift / $2.28) 5pcs 3pin male
   
 - 1x DHT11 board
 - 2x basic push button
