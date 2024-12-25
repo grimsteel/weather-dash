@@ -12,7 +12,7 @@
 
 ## PCB
 
-[Kicanvas](https://cad.onshape.com/documents/d06c112e58f115f3ec29811b/w/2a8c46b6d89bea48d93f043a/e/2a97cfce612bd0256a92786b?renderMode=0&uiState=676c6f4b24d20336a44b9517)
+[Kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fgrimsteel%2Fweather-dash%2Fblob%2Fmain%2Fweather-dash.kicad_pro)
 
 ![pcb render](pcb-render.png)
 
