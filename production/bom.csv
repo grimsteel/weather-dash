@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BZ1,Buzzer_12x9.5RM7.6,1,Buzzer,
+D1,D_DO-41_SOD81_P7.62mm_Horizontal,1,1N5817,
+J1,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,Conn_01x02_Pin,
+J3,DHT11,1,Conn_01x03_Socket,
+R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,10,
+"SW1, SW3",SW_PUSH_6mm_H4.3mm,2,SW_Push,
+SW2,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,SW_SPST,
+U1,WEMOS_S2_Mini,1,WEMOS_S2_Mini,
+U2,TFT_ST7735_SD,1,TFT_ST7735_SD,
+U3,TP4056,1,~,
